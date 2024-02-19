@@ -1,0 +1,51 @@
+.inicio{
+    color: orange;    
+    }
+    .entradas{
+    color: yellow;    
+    }    
+.primerh1{
+    color: red;
+}
+#contenidosdigitales{
+color: blue;    
+}
+#creaciondenfts{
+ color: purple;   
+}
+#ventadeproductosdigitales{
+ color: green;   
+}
+.contents{
+ color: blue;   
+}
+.nfts{
+color: purple;    
+}
+.sell{
+ color: green;   
+}
+.h1form{
+font-size: 24px;    
+}
+.nombre{
+ color: yellow;   
+}
+.email{
+color: red;
+}
+.pasword{
+    color: red;
+}
+.comentario{
+ color: white;   
+}
+.condiciones{
+ font-size: 24px;   
+}
+.enviar{
+   /*Vamos a poner el recuadro del botón en verde*/ 
+   background-color: green;
+   /*Ahora pondremos el texto que está dentro del botón también en verde*/
+   color: green;
+   }
