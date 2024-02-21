@@ -8,7 +8,7 @@
 </head>
 <body>
     <header id="header">
-<h1>Blog tecnológico y digital</h1>        
+<h1 class="primerh1">Blog tecnológico y digital</h1>        
      <img src="https://media.istockphoto.com/id/1497249164/es/foto/port%C3%A1til-moderno-aislado-en-el-fondo-blanco.jpg?s=612x612&w=0&k=20&c=ZbMqv6r_3A2HjFWFGj3JkR4NF445Gqk4JkmJDk3wUn8=" alt="Ordenador portátil moderno">
  <nav>
 <ul>
@@ -18,9 +18,9 @@
  </nav>
     </header>
 <main>
- <h1 class="primerh1">Contenidos</h1>
+ <h2 class="contents">Contenidos</h1>
  <section id="entradas">
- <article id="contenidosdigitales">
+    <article id="contenidosdigitales">
 <p>Los contenidos digitales sirven para dar a conocer algo a álguien. Pero si se hacen virales, se podrían llegar a generar ingresos con ellos.</p>
  </article>
  <article id="creaciondenfts">
@@ -35,18 +35,19 @@
  </section>   
 </main>
 <footer>
-<h1 class="h1form">Rellena tus datos para más información</h1>    
-<label for class="nombre"="nombre">Escribe tu nombre:</label>
+<h3 class="h1form">Rellena tus datos para más información</h1>
+    <form>    
+<label for class="nombre"for="nombre">Escribe tu nombre:</label>
 <input type="text" id="nombre" name="Nobre">
-<label for class="email"="correo">Correo electrónico:</label>
+<label for class="email"for="correo">Correo electrónico:</label>
 <input type="email" id="correo" name="Correo">
-<label for class="password"="contraseña">Contraseña:</label>
-<input type="password" id="contraseña" name="Contraseña">
-<label for class="comentario"="Comentarios">Escribe un comentario:</label>
+<label for class="password"for="contraseña">Contraseña:</label>
+<input type="password" id="contraseña" name="Contraseña" minlength="8">
+<label for class="comentario"for="Comentarios">Escribe un comentario:</label>
 <textarea id="comentario"></textarea>
-<label for class="condiciones"="condiciones">Acepto los términos y condiciones y la política de privacidad</label>
+<label for class="condiciones"for="condiciones">Acepto los términos y condiciones y la política de privacidad</label>
 <input type="checkbox">
-<button type class="enviar"="submit">Enviar</button>
+<button type class="enviar"for="submit">Enviar</button>
 </form>
 </footer>
 </body>
